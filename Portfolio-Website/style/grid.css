@@ -1,0 +1,60 @@
+.text-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 60px;
+  row-gap: 80px;
+}
+.text-preview {
+  display: flex;
+  vertical-align: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 80px;
+  height: 500px;
+}
+
+.picture-box,
+.text-box {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-box {
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.picture-box {
+  margin-right: 20px;
+}
+
+.text-box-title {
+  display: flex;
+  flex: 100px;
+  align-items: center;
+  justify-content: center;
+  font-family: Outfit, Roboto;
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.text-box-content {
+  display: flex;
+  flex: 5;
+  justify-content: center;
+  font-size: 30px;
+  padding-left: 20px;
+  color: rgb(52, 55, 68);
+}
+
+.text-box-name {
+  font-weight: 700;
+  transition: color 0.2s;
+  transition: font-weight 0.2s;
+}
+
+.text-box-name:hover {
+  color: rgb(165, 169, 194);
+  font-weight: 700;
+}

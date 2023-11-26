@@ -1,0 +1,134 @@
+.header {
+  height: 80px;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  flex-direction: row;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(73, 77, 95);
+  z-index: 100;
+  box-shadow: -4px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  color: rgb(160, 210, 235);
+  font-size: 40px;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Outfit, Roboto;
+  background-color: rgb(73, 77, 95);
+  border: none;
+}
+
+.name:hover {
+  .N {
+    transition: color 0.2s;
+  }
+
+  .N:hover {
+    color: rgb(141, 199, 228);
+  }
+
+  .O {
+    transition: color 0.3s;
+  }
+
+  .O:hover {
+    color: rgb(113, 159, 183);
+  }
+
+  .B {
+    transition: color 0.4s;
+  }
+
+  .B:hover {
+    color: rgb(93, 129, 149);
+  }
+
+  .U {
+    transition: color 0.5s;
+  }
+
+  .U:hover {
+    color: rgb(70, 97, 112);
+  }
+
+  .Y {
+    transition: color 0.6s;
+  }
+
+  .Y:hover {
+    color: rgb(51, 71, 81);
+  }
+
+  .A {
+    transition: color 0.7s;
+  }
+
+  .A:hover {
+    color: rgb(33, 46, 52);
+  }
+}
+
+.middle-section {
+  display: flex;
+  flex: 1;
+  flex-shrink: 0;
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+
+}
+
+.github-text,
+.linkedin-text,
+.leetcode-text {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 40px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.5s;
+  
+}
+
+.github-text:hover,
+.linkedin-text:hover,
+.leetcode-text:hover {
+  color: rgb(164, 200, 218);
+}
+
+
+.right-section {
+  display: flex;
+  flex: 1;
+  justify-content: right;
+  align-items: center;
+}
+
+.email-text {
+  cursor: pointer;
+  padding-right: 20px;
+  color: white;
+  transition: color 0.5s;
+}
+
+.email-text:hover {
+  color: rgb(164, 200, 218)
+}
+
+
+
