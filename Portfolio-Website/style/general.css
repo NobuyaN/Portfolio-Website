@@ -1,13 +1,22 @@
 body {
   font-family: Roboto, Arial;
-  padding-bottom: 1000px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  margin: 0;
+  padding: 0;
 }
 
 section {
-  margin-top: 100px;
+  margin-top: 80px;
   padding-left: 15px;
+}
+
+.bg-container {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient( 90.2deg,  rgba(79,255,255,1) 0.3%, rgba(0,213,255,1) 99.8% );
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
 }
